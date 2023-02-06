@@ -132,7 +132,7 @@ footer p{
     padding: 15px 0px;
 }
 footer p a{
-    color: #ddd;
+    color: #df0101;
     text-decoration: none;
     font-weight: bold;
 }
@@ -195,4 +195,9 @@ footer p a{
     section.video .partieVideo .numero2{
         display: none;
     }
+    footer p{
+    text-align: center;
+    font-size: 1rem;
+    padding: 15px 0px;
+}
 }
