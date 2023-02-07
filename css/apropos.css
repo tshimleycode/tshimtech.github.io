@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800;900&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.entete{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+a#titre-site{
+    font-size: 1.4rem;
+    font-weight: 900;
+    margin-right: 3em;
+    color: rgba(9, 78, 239, 0.889);
+}
+.entete .logo{
+    width: 180px;
+    height: 80px;
+}
+.entete .rx-sociaux{
+    position: relative;
+    display: flex;
+}
+.entete .rx-sociaux span{
+    margin: 0 15px;
+    font-size: 1.5rem;
+    color: rgba(9, 78, 239, 0.889);
+}
+nav#navigation{
+    position: sticky;
+    top: 20px;
+    z-index: 5;
+    width: 100%;
+}
+nav div ul#menu-principal li a{
+    color: rgb(9, 9, 9);
+    margin-left: 10px;
+}
+nav div ul#menu-principal li a:hover, nav div ul#menu-principal li a.active, 
+nav div ul#menu-principal li ul#sous-menu li a:hover{
+    color: rgba(9, 78, 239, 0.777);
+    font-weight: bold;
+}
+nav div ul#menu-principal li ul#sous-menu li a{
+    color: rgba(13, 12, 12, 0.859);
+}
+a{
+    color: aqua;
+}
+footer{
+    width: 100%;
+    background-color: #0062ff;
+    color: #fff;
+    margin-bottom: 0px;
+}
+footer p{
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 15px 0px;
+}
+footer p a{
+    color: #fd0a0a;
+    text-decoration: none;
+    font-weight: bold;
+}
+@media screen and (max-width:600px) {
+    .entete .logo{
+        width: 120px;
+        height: 60px;
+    }
+    .entete .rx-sociaux span{
+        margin: 0 5px;
+        font-size: 1rem;
+        color: rgba(9, 78, 239, 0.889);
+    }
+    footer p{
+        text-align: center;
+        font-size: 1rem;
+        padding: 15px 0px;
+    }
+}
