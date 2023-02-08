@@ -52,6 +52,47 @@ nav div ul#menu-principal li ul#sous-menu li a{
 a{
     color: aqua;
 }
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 10px;
+}
+.main .map{
+    width: 400px;
+    height: 350px;
+}
+.main .coordonner{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.main .coordonner p, .main .coordonner li{
+    font-weight: bold;
+}
+.main .coordonner li{
+    list-style: none;
+    text-decoration: none;
+}
+.main .formulaire{
+    width: 350px;
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgba(9, 78, 239, 0.889);
+}
+.main .formulaire form{
+    width: 100%;
+}
+.main .formulaire form input, .main .formulaire form textarea{
+    width: 100%;
+    margin: 7px 10px;
+}
 footer{
     width: 100%;
     background-color: #0062ff;
