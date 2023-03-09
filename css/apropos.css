@@ -120,8 +120,43 @@ footer p a{
         color: rgba(9, 78, 239, 0.889);
     }
     footer p{
+        width: 100%;
         text-align: center;
         font-size: 1rem;
         padding: 15px 0px;
+    }
+    .main{
+        width: 100%;
+        display: block;
+    }
+    .main .map{
+        display: none;
+    }
+    .main .coordonner{
+        width: 100%;
+        margin-top: -5px;
+        text-align: center;
+    }
+    .main .coordonner::after{
+        content: '';
+        padding: 1px 0;
+        color: black;
+        margin: 5px 0;
+        display: block;
+    }
+    .main .formulaire{
+        width: 90%;
+        margin: 1px 5px;
+        display: block;
+        position: relative;
+        top: 50px;
+        background-image: url(../images/pc1.png);
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: auto;
+        z-index: 20;
+    }
+    .main .formulaire h2{
+        font-size: 1.5em;
     }
 }
