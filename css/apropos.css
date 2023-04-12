@@ -43,18 +43,20 @@ a#titre-site{
 }
 nav#navigation{
     position: sticky;
-    top: 15px;
+    top: 0px;
     z-index: 5;
     width: 100%;
 }
 nav div ul#menu-principal li a{
     color: rgb(9, 9, 9);
     margin-left: 10px;
+    font-weight: 700;
 }
 nav div ul#menu-principal li a:hover, nav div ul#menu-principal li a.active, 
 nav div ul#menu-principal li ul#sous-menu li a:hover{
     color: rgba(9, 78, 239, 0.777);
     font-weight: bold;
+    font-weight: 700;
 }
 nav div ul#menu-principal li ul#sous-menu li a{
     color: rgba(13, 12, 12, 0.859);
@@ -62,12 +64,64 @@ nav div ul#menu-principal li ul#sous-menu li a{
 a{
     color: aqua;
 }
+.batiment img{
+    position: relative;
+    width: 100%;
+}
+.formdetail{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.formdetail p{
+    color: rgba(15, 81, 234, 0.988);
+    font-weight: 600;
+    font-size: 1.2em;
+    padding: 30px 0px 2px 0px;
+}
+.formdetail h1{
+    color: black;
+    font-weight: 800;
+    font-size: 2.4em;
+}
+.horaire{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+.horaire img{
+    width: 120px;
+    height: 120px;
+}
+.horaire span{
+    font-size: 3em;
+    padding: 10px 20px;
+    background-color: rgba(148, 178, 247, 0.821);
+    border-radius: 8px;
+    margin-right: 25px;
+    width: 100px;
+    height: 100px;
+}
+.horaire span > img{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    margin: auto auto;
+}
+.horaire .heur{
+    display: flex;
+    justify-items: center;
+}
+/*
 .main{
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 20px 10px;
 }
+
 .main .map{
     width: 400px;
     height: 350px;
@@ -120,7 +174,7 @@ footer p a{
     color: #fd0a0a;
     text-decoration: none;
     font-weight: bold;
-}
+}*/
 @media screen and (max-width:600px) {
     .main-principal{
         position: relative;
