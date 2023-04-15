@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800;900&family=Roboto:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:wght@100;300;400;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 
 html, body{
     height: 100%;
@@ -77,10 +77,8 @@ a{
 .info{
     width: 100%;
     display: block;
-    
     text-align: center;
     font-size: 1.2rem;
-    
     font-weight: 600;
     color: #fff;
 }
@@ -139,23 +137,53 @@ section.video video{
 }
 footer{
     width: 100%;
-    height: 50px;
     position: relative;
-    background-color: #0062ff;
+    background-color: #2f4b78;
     color: #fff;
     bottom: 0;
 }
+footer ul.menufooter{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    list-style-type: none;
+}
+footer ul.menufooter li a{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
+footer ul.menufooter li a:hover{
+    text-decoration: underline;
+    color: #4085f4;
+}
+footer div.rx-sociaux-footer{
+    padding: 20px 0px;
+    text-align: center;
+}
+footer div.rx-sociaux-footer span i{
+    font-size: 2em;
+    margin-left: 20px;
+}
+footer div.rx-sociaux-footer span i:hover{
+    color: #4085f4;
+}
 footer p{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 15px 0px;
-}
-footer p a{
-    color: #df0101;
-    text-decoration: none;
-    font-weight: bold;
+    font-weight: 400;
+    font-family: 'Abel', sans-serif;
 }
 @media screen and (max-width:900px) {
+    a#titre-site{
+        font-size: 1.1rem;
+        font-weight: 900;
+        margin-right: 3em;
+        color: rgba(9, 78, 239, 0.889);
+    }
     .services{
         display: flex;
         margin: 15px 0;
@@ -172,10 +200,14 @@ footer p a{
     .entete .logo{
         width: 120px;
         height: 60px;
+        margin-left: 15px;
+    }
+    .entete .rx-sociaux{
+        margin-right: 20px;
     }
     .entete .rx-sociaux span{
         margin: 0 5px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: rgba(9, 78, 239, 0.889);
     }
     .services{
@@ -214,9 +246,53 @@ footer p a{
     section.video .partieVideo .numero2{
         display: none;
     }
+    .info{
+        width: 100%;
+        display: block;
+        text-align: center;
+        font-size: 0.5em;
+        font-weight: 600;
+        color: #fff;
+    }
+    footer{
+        width: 100%;
+        position: relative;
+        background-color: #2f4b78;
+        color: #fff;
+        bottom: 0;
+    }
+    footer ul.menufooter{
+        display: block;
+        text-align: center;
+        padding: 30px 0px 5px 0px;
+        list-style-type: none;
+    }
+    footer ul.menufooter li a{
+        text-decoration: none;
+        font-size: 1.3em;
+        font-family: 'Abel', sans-serif;
+        color: white;
+    }
+    footer ul.menufooter li a:hover{
+        text-decoration: underline;
+        color: #4085f4;
+    }
+    footer div.rx-sociaux-footer{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    footer div.rx-sociaux-footer span i{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    footer div.rx-sociaux-footer span i:hover{
+        color: #4085f4;
+    }
     footer p{
-    text-align: center;
-    font-size: 1rem;
-    padding: 15px 0px;
-}
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 15px 0px;
+        font-weight: 200;
+        font-family: 'Abel', sans-serif;
+    }
 }
