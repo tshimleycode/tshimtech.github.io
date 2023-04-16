@@ -74,6 +74,28 @@ a{
     width: 100%;
     
 }
+.main .partiemilieu{
+    background-color: rgba(242, 244, 246, 0.777);
+    padding-bottom: 5px;
+}
+.main .partiemilieu .info p{
+    color: #000;
+    padding-bottom: 0px;
+    padding-top: 2px;
+}
+.main .dernierPartie{
+    padding-top: 10px;
+    padding-bottom: 1px;
+    margin-bottom: -50px;
+    margin-top: 10px;
+}
+.main .dernierPartie #text p{
+    color: black;
+    padding: 5px 0px;
+}
+.main .dernierPartie #text{
+    margin: -20px 0px;
+}
 .info{
     width: 100%;
     display: block;

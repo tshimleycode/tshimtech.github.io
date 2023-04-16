@@ -97,111 +97,178 @@ a{
 }
 .horaire span{
     font-size: 3em;
-    padding: 10px 20px;
-    background-color: rgba(148, 178, 247, 0.821);
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
-    margin-right: 25px;
+    margin-right: 5px;
     width: 100px;
     height: 100px;
 }
-.horaire span > img{
-    position: relative;
-    width: 70px;
-    height: 70px;
-    margin: auto auto;
+.horaire span i{
+    margin-left: 40px;
+    margin-top: -10px;
+    color: rgba(9, 78, 239, 0.889);;
 }
 .horaire .heur{
     display: flex;
     justify-items: center;
 }
-/*
+.horaire .heur h3{
+    font-family: 'Abel', sans-serif;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.horaire .heur p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    gap: 5px;
+}
 .main{
     width: 100%;
+    margin: 30px 0px;
     display: flex;
     justify-content: space-around;
-    margin: 20px 10px;
+    background-color: rgba(242, 244, 246, 0.777);
+    padding-bottom: 30px;
+    margin-bottom: -60px;
+    margin-top: -40px;
+    color: #000000;
 }
-
-.main .map{
-    width: 400px;
-    height: 350px;
-}
-.main .coordonner{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
+.map > h2{
+    font-size: 2.1em;
+    font-weight: 600;
     text-align: center;
-    align-items: center;
-    margin-top: 80px;
+    padding: 10px 0px 20px 0px;
 }
-.main .coordonner p, .main .coordonner li{
-    font-weight: bold;
+.main .formulaireIns{
+    width: 40%;
 }
-.main .coordonner li{
-    list-style: none;
-    text-decoration: none;
-}
-.main .formulaire{
-    width: 350px;
-}
-h2{
+.formulaireIns > h2{
+    font-size: 2.1em;
+    font-weight: 600;
     text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    color: rgba(9, 78, 239, 0.889);
+    padding: 10px 0px 20px 0px;
 }
-.main .formulaire form{
-    width: 100%;
+.formulaireIns form label{
+    font-size: 1em;
+    font-weight: 600;
 }
-.main .formulaire form input, .main .formulaire form textarea{
+.formulaireIns form button{
+    position: relative;
     width: 100%;
-    margin: 7px 10px;
+    margin: 0px auto;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 footer{
     width: 100%;
-    height: 50px;
-    position: absolute;
-    background-color: #0062ff;
+    position: relative;
+    background-color: #2f4b78;
     color: #fff;
     bottom: 0;
 }
+footer ul.menufooter{
+    display: flex;
+    justify-content: center;
+    padding: 40px 0px;
+    list-style-type: none;
+}
+footer ul.menufooter li a{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Abel', sans-serif;
+    color: white;
+}
+footer ul.menufooter li a:hover{
+    text-decoration: underline;
+    color: #4085f4;
+}
+footer div.rx-sociaux-footer{
+    padding: 20px 0px;
+    text-align: center;
+}
+footer div.rx-sociaux-footer span i{
+    font-size: 2em;
+    margin-left: 20px;
+}
+footer div.rx-sociaux-footer span i:hover{
+    color: #4085f4;
+}
 footer p{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 15px 0px;
+    font-weight: 400;
+    font-family: 'Abel', sans-serif;
 }
-footer p a{
-    color: #fd0a0a;
-    text-decoration: none;
-    font-weight: bold;
-}*/
 @media screen and (max-width:600px) {
-    .main-principal{
-        position: relative;
-        height: 100%;
-        margin-bottom: 150px;
-    }
     .entete .logo{
         width: 120px;
         height: 60px;
+        margin-left: 15px;
+    }
+    .entete .rx-sociaux{
+        margin-right: 25px;
     }
     .entete .rx-sociaux span{
         margin: 0 5px;
-        font-size: 1rem;
+        font-size: 0.8rem;
         color: rgba(9, 78, 239, 0.889);
     }
-    footer{
+    .formdetail{
         width: 100%;
-        height: 50px;
-        bottom: 0;
         position: relative;
-    }
-    footer p{
-        width: 100%;
         text-align: center;
-        font-size: 1rem;
-        padding: 15px 0px;
     }
+    .formdetail p{
+        color: #0f51eafc;
+        font-weight: 600;
+        font-size: 0.8em;
+        padding: 30px 0px 2px 0px;
+    }
+    .formdetail h1{
+        color: black;
+        font-weight: 800;
+        font-size: 1.4em;
+    }
+    .horaire{
+        position: relative;
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+        padding: 50px 30px;
+    }
+   
+    .horaire span{
+        font-size: 3em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 8px;
+        margin-right: 5px;
+        width: 100px;
+        height: 100px;
+    }
+    .horaire span i{
+        margin-left: 10px;
+        margin-top: 0px;
+        color: rgba(9, 78, 239, 0.889);;
+    }
+    .horaire .heur{
+        display: flex;
+        justify-items: center;
+    }
+    .horaire .heur h3{
+        font-family: 'Abel', sans-serif;
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .horaire .heur p{
+        font-family: 'Rubik', sans-serif;
+        font-size: 0.9em;
+        font-weight: 300;
+        gap: 5px;
+    }
+    
     .main{
         width: 100%;
         display: block;
@@ -209,36 +276,66 @@ footer p a{
     .main .map{
         display: none;
     }
-    .main .coordonner{
-        width: 100%;
-        margin-top: -5px;
-        text-align: center;
-        gap: 5px;
-        line-height: 2;
-    }
-    .main .coordonner a{
-        text-decoration: none;
-        color: #000000;
-        cursor: pointer;
-    }
-    .main .formulaire{
-        width: 100%;
-        padding: 0;
-        padding-top: 10px;
-        margin: 2px auto;
-        background-image: url("../images/dev3.jpg");
-        background-position: left top;
-        background-repeat: no-repeat;
-        background-size: auto;
-        background-position-x: center;
-        z-index: 20;
-    }
-    .main .formulaire > form{
+    .main .formulaireIns{
         width: 90%;
+        margin-left: 5%;
     }
-    .main .formulaire h2{
+    .formulaireIns > h2{
+        font-size: 1.8em;
+        font-weight: 600;
+        text-align: center;
+        padding: 10px 0px 10px 0px;
+    }
+    .formulaireIns form label{
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .formulaireIns form button{
+        position: relative;
+        width: 100%;
+        margin: 0px auto;
         font-size: 1.5em;
-        font-weight: 900;
-        padding: 5px auto;
+        font-weight: 600;
+    }
+    footer{
+        width: 100%;
+        position: relative;
+        background-color: #2f4b78;
+        color: #fff;
+        bottom: 0;
+    }
+    footer ul.menufooter{
+        display: block;
+        text-align: center;
+        padding: 30px 0px 5px 0px;
+        list-style-type: none;
+    }
+    footer ul.menufooter li a{
+        text-decoration: none;
+        font-size: 1.3em;
+        font-family: 'Abel', sans-serif;
+        color: white;
+    }
+    footer ul.menufooter li a:hover{
+        text-decoration: underline;
+        color: #4085f4;
+    }
+    footer div.rx-sociaux-footer{
+        padding: 10px 0px;
+        text-align: center;
+    }
+    footer div.rx-sociaux-footer span i{
+        font-size: 1.3em;
+        margin-left: 10px;
+    }
+    footer div.rx-sociaux-footer span i:hover{
+        color: #4085f4;
+    }
+    footer p{
+        text-align: center;
+        font-size: 0.8rem;
+        padding: 15px 0px;
+        font-weight: 200;
+        font-family: 'Abel', sans-serif;
     }
 }

@@ -73,7 +73,7 @@
             </div>
           </nav>
         <div class="batiment">
-            <img src="./images/batiment.jpg" alt="Batiment Administratif">
+            <img src="./images/salleserver2.jpg" alt="Batiment Administratif">
         </div>
         <div class="formdetail">
             <p>Nous sommes à votre entière disposition pour vous fournir toutes les informations</p>
@@ -81,60 +81,79 @@
         </div>
         <div class="horaire">
             <div class="heur">
-                <span><img src="./images/icon1.jpg" alt=""></span>
+                <span><i class="fa-regular fa-clock"></i></span>
                 <div class="interHeur">
                     <h3>HORAIRES D'OUVERTURE</h3>
-                    <p>Lun-Ven: 08h30 - 17h30</p>
-                    <p>Samedi: 08h30 - 13h00</p>
+                    <p>Lun-Ven: 08h30 - 17h30<br>Samedi: 08h30 - 13h00</p>
                 </div>
             </div>
             <div class="heur">
-                <span><i class="fa-solid fa-house" style="color: #fff;"></i></span>
-                <div class="intertel">
+                <span><i class="fa-solid fa-mobile-screen-button"></i></span>
+                <div class="intertels">
                     <h3>TELEPHONE</h3>
-                    <p>+243 97 20 84 584</p>
-                    <p>+243 89 97 51 698</p>
+                    <p>+243 97 20 84 584<br>+243 89 97 51 698</p>
                 </div>
             </div>
             <div class="heur">
-                <span><i class="fa-solid fa-mobile-screen" style="color: #fff;"></i></span>
+                <span><i class="fa-solid fa-house"></i></i></span>
                 <div class="interadresse">
-                    <p>25, Batiment TSHIMTECH<br>Av. Kamina/Lubumbashi/Haut-Katanga<br>RDCongo</p>
+                  <h3>ADRESSE</h3>
+                  <p>25,Batiment TSHIMTECH<br> Av. Kamina/Lubumbashi<br>/Haut-Katanga/RDCongo</p>
                 </div>
             </div>
         </div>
         <main class="main">
             <div class="map">
                 <h2>Notre Localisation</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7814.766386960962!2d27.48070596757585!3d-11.667232011076914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723ec1dd5024d3%3A0x43ca55e670e66506!2sJambo%20Mart!5e0!3m2!1sen!2scd!4v1675851709026!5m2!1sen!2scd" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                <div class="img-thumbnail">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7814.766386960962!2d27.48070596757585!3d-11.667232011076914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19723ec1dd5024d3%3A0x43ca55e670e66506!2sJambo%20Mart!5e0!3m2!1sen!2scd!4v1675851709026!5m2!1sen!2scd" width="400" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
             </div>
-            <!--
-            <div class="coordonner">
-                <img src="./images/logo_tshim.png" alt="Logo du site">
-                <p>23, Av Kamina C/Katuba3<br>Lubumbashi/Haut-Katanga<br>Republique democratique du congo</p>
-                <p>
-                    <span><i class="fa-solid fa-phone"></i> +243 972084584</span><br/>
-                    <span><i class="fa-solid fa-tty"></i> +243 899751698</span><br/>
-                    <span><i class="fa-solid fa-envelope"></i> <a href="#">tshimnicolas11@gmail.com</a></span>
-                </p>
+
+            <div class="formulaireIns">
+              <h2>Ecrivez nous</h2>
+              <form action="">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Nom</label>
+                  <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Votre nom">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Téléphone</label>
+                  <input type="phone" class="form-control" id="exampleFormControlInput1" placeholder="Numero de Téléphone">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+              </form>
             </div>
-            <div class="formulaire">
-                <h2>Contactez-nous</h2>
-                <form action="">
-                    <input type="text" placeholder="Votre nom">
-                    <input type="text" placeholder="Votre Societe">
-                    <input type="email" placeholder="Votre adresse email">
-                    <input type="number" placeholder="Votre numero">
-                    <textarea name="contenue" id="" cols="" rows="5" placeholder="Votre Message"></textarea>
-                    <input type="submit" class="btn btn-success" value="Envoyer">
-                </form>
-            </div>
-            -->
+
         </main>
     </div>
     <footer>
-        <p>Tous droits réservés <a href="">TshimTech Pro</a> &copy; 2023</p>
+      <ul class="menufooter">
+        <li><a href="#">Aide</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Communauté</a></li>
+        <li><a href="#">Apropos de Nous </a></li>
+        <li><a href="#">Activité</a></li>
+        <li><a href="#">Equippe Technique</a></li>
+      </ul>
+      <hr>
+      <div class="rx-sociaux-footer">
+        <span><i class="fa-brands fa-facebook"></i></span>
+        <span><i class="fa-brands fa-youtube"></i></span>
+        <span><i class="fa-brands fa-instagram"></i></span>
+        <span><i class="fa-brands fa-twitter"></i></span>
+        <span><i class="fa-brands fa-square-whatsapp"></i></span>
+      </div>
+      <p>Copyright &copy; 2023 TSHIMTECH IT Solution. All rights reserved </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
