@@ -11,65 +11,87 @@
 </head>
 <body>
     <div class="main-principal">
-        <section class="entete">
-            <div class="div-logo">
-                <img src="./images/logo_tshim.png" alt="Logo Site" class="logo">
-            </div>
-            <div class="rx-sociaux">
-                <span><i class="fa-brands fa-facebook"></i></span>
-                <span><i class="fa-brands fa-youtube"></i></span>
-                <span><i class="fa-brands fa-instagram"></i></span>
-                <span><i class="fa-brands fa-twitter"></i></span>
-                <span><i class="fa-brands fa-square-whatsapp"></i></span>
-            </div>
-        </section>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#" id="titre-site">IT Solution</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarScroll">
-                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" id="menu-principal" style="--bs-scroll-height: 100px;">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Acceuil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Cours </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown" id="sous-menu">
-                                <li><a class="dropdown-item" href="#">Bureautique</a></li>
-                                <li><a class="dropdown-item" href="#">Programmation</a></li>
-                                <li><a class="dropdown-item" href="#">Reseaux et Administration</a></li>
-                                <li><a class="dropdown-item" href="#">Securité Electronique</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Maintenance</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="false">Materiels</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">Forum</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./apropos.html" tabindex="-1" aria-disabled="false">Contacts</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+        <div class="container-fluid">
+            <section class="entete">
+                <div class="div-logo">
+                    <img src="./images/logo_tshim.png" alt="Logo Site" class="logo">
                 </div>
+                <div class="rx-sociaux">
+                    <span><i class="fa-brands fa-facebook"></i></span>
+                    <span><i class="fa-brands fa-youtube"></i></span>
+                    <span><i class="fa-brands fa-instagram"></i></span>
+                    <span><i class="fa-brands fa-twitter"></i></span>
+                    <span><i class="fa-brands fa-square-whatsapp"></i></span>
+                </div>
+            </section>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navigation">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#" id="titre-site">IT Solution</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" id="menu-principal" style="--bs-scroll-height: 100px;">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./index.html">ACCEUIL</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services.html">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services.html">SHOP</a>
+                            </li>
+                  
+                            <li class="nav-item">
+                                <a class="nav-link" href="./services.html">QUI SOMMES-NOUS</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" tabindex="-1" aria-disabled="false">FORUM</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./apropos.html" tabindex="-1" aria-disabled="false">NOUS CONTACTER</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <main class="main">
+            <section class="image-principale">
+            <!-- ***************carousel affiche du site debut ********************** -->
+                <div class="imgacceuil">
+                    <img src="./images/sallaServer1.jpg" alt="Salle server">
+                </div>
+            <!-- ***************carousel affiche du site fin ************************ -->
+            </section>
+            <div class="textcentre">
+                <h2>Nos Services & Solutions pour un [MAXIMUM] de Sécurité</h2>
             </div>
-        </nav>
-    </div>
+        </main>
+    </div>   
     <footer>
-        <p>Tous droits réservés <a href="">TshimTech Pro</a> &copy; 2023</p>
+        <ul class="menufooter">
+            <li><a href="#">Aide</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">Communauté</a></li>
+            <li><a href="#">Apropos de Nous </a></li>
+            <li><a href="#">Activité</a></li>
+            <li><a href="#">Equippe Technique</a></li>
+        </ul>
+        <hr>
+        <div class="rx-sociaux-footer">
+            <span><i class="fa-brands fa-facebook"></i></span>
+            <span><i class="fa-brands fa-youtube"></i></span>
+            <span><i class="fa-brands fa-instagram"></i></span>
+            <span><i class="fa-brands fa-twitter"></i></span>
+            <span><i class="fa-brands fa-square-whatsapp"></i></span>
+        </div>
+        <p>Copyright &copy; 2023 TSHIMTECH IT Solution. All rights reserved </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script src=""></script>
 </body>
+</html>
