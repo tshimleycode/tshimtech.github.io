@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;800;900&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lato:wght@100;300;400;700;900&family=Poppins:wght@100;300;400;600;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,300&display=swap');
 
 html, body{
     margin: 0;
@@ -66,6 +67,89 @@ a{
 .main-principal .main .image-principale .imgacceuil img{
     width: 100%;
 }
+.textcentre{
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+.textcentre h2{
+    font-size: 3em;
+    font-weight: 700;
+    color: #000000;
+}
+.sectionP{
+    width: 96%;
+    display: flex;
+    margin: 10px auto;
+}
+.sectionP .sous-section1{
+    width: 70%;
+}
+.sectionP .sous-section1 .block{
+    display: flex;
+    margin: 20px 10px;
+}
+.sectionP .sous-section1 .block p{
+    margin: 0px 10px 0px 20px;
+}
+.sectionP .sous-section1 .block img{
+    border-radius: 15px;
+}
+.sectionP .sous-section2{
+    width: 30%;
+    border: solid black;
+}
+.sectionP .sous-section2 h3{
+    font-size: 1.8em;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    padding: 20px 10px;
+    font-family: 'Lato', sans-serif;
+}
+.sectionP .sous-section2 ul li .fontRouge{
+    border: solid black 1px;
+}
+
+.sectionP .sous-section2 ul li.menu1{
+    list-style: none;
+    padding: 5px 0px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgb(8, 8, 9) ;
+    /*background-color: hsl(0, 12%, 92%);*/
+    border-radius: 20px;
+    margin: 15px auto;
+    padding: 7px 30px;
+    position: relative;
+}
+.sectionP .sous-section2 .menu1 .sous-menu1{
+    list-style: none;
+    margin-left: 30px;
+    padding: 2px 0px;
+    font-size: 0.9em;
+    font-weight: 100;
+    display: none;
+}
+.sectionP .sous-section2 .menu1 .sous-menu1 li.menu2{
+    background-color: #a9c8f9;
+    margin: 5px 20px;
+    padding: 3px 5px;
+    border-radius: 15px;
+}
+.sectionP .sous-section2 .menu1 .maintenance:hover .sous-menu1{
+    display: block;
+}
+.sectionP .sous-section2 ul li.menu22{
+    list-style: none;
+    margin-left: 30px;
+    padding: 2px 0px;
+    display: none;
+}
+
+/* ***************Mise en forme de la partie pied de la page******************* */
 footer{
     width: 100%;
     position: relative;
